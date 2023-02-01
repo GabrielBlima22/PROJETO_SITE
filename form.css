@@ -9,8 +9,8 @@ body {
   justify-content: center;
   background-color: black;
   margin-top: 20px;
-  width: 1485px;
-  height: 700px;
+  width: 100%;
+  height: 700px; 
 }
 
 .bar {
