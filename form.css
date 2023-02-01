@@ -1,0 +1,138 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.pai {
+  justify-content: center;
+  background-color: black;
+  margin-top: 20px;
+  width: 1485px;
+  height: 700px;
+}
+
+.bar {
+  background-color: #1e1e1e;
+  width: 1450px;
+  height: auto;
+  margin-top: 10px;
+  margin-left: 19px;
+  border-radius: 10px;
+  display: flex;
+}
+
+h1 {
+  width: 641px;
+  height: 44px;
+  margin-top: 25px;
+  margin-left: 17px;
+  font-size: 20px;
+  color: white;
+}
+
+.box {
+  width: 140px;
+  height: auto;
+  float: left;
+  transition: 0.5s linear;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  padding: 15px;
+  text-align: center;
+  margin: 0 5px;
+  background: transparent;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.box:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  height: 4px;
+  width: 100%;
+  border-bottom: 4px solid transparent;
+  border-left: 4px solid transparent;
+  box-sizing: border-box;
+  transform: translateX(100%);
+}
+
+.box:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  border-top: 4px solid transparent;
+  border-right: 4px solid transparent;
+  box-sizing: border-box;
+  transform: translateX(-100%);
+}
+
+.box:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.box:hover:before {
+  border-color: white;
+  height: 100%;
+  transform: translateX(0);
+  transition: 0.3s transform linear, 0.3s height linear 0.3s;
+}
+
+.box:hover:after {
+  border-color: white;
+  height: 100%;
+  transform: translateX(0);
+  transition: 0.3s transform linear, 0.3s height linear 0.5s;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: transparent;
+}
+
+.fttx {
+  background-color: #1e1e1e;
+  width: 1450px;
+  height: 568px;
+  margin-top: 20px;
+  margin-left: 19px;
+  display: flex;
+  border-radius: 10px;
+}
+
+.logo {
+  width: 550px;
+  height: 550px;
+  margin-top: 8px;
+  margin-left: 8px;
+}
+
+.text {
+  text-align: justify;
+  width: 720px;
+  height: 400px;
+  margin-left: 100px;
+  margin-top: 80px;
+  background-color: #1e1e1e;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 5;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
