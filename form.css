@@ -176,8 +176,8 @@ a {
 
   .logo{
     
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 450px;
     margin-bottom: 50px;
     margin-left: -25px;
    
@@ -185,7 +185,7 @@ a {
 
   .text{
     height: 700px;
-    width: 500px;
+    width: 450px;
     margin-top: -50px;
     margin-left: -25px;
     display: flex;
