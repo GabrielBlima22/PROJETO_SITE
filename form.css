@@ -1,6 +1,6 @@
 body {
   width: 100%;
-  height: 100%;
+  height: 100% ;
   font-family: "Roboto", sans-serif;
   background-color: black;
   display: flex;
@@ -91,6 +91,7 @@ h1 {
   transition: 0.3s transform linear, 0.3s height linear 0.5s;
 }
 
+
 a {
   color: white;
   text-decoration: none;
@@ -134,25 +135,21 @@ a {
   font-family: "Roboto", sans-serif;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 415px) {
 
   body{
-    width: 612px;
+    width: 415px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
     margin-left: 0px;
     padding-left: 0px;
     margin-right: 0px;
     padding-right: 0px;
-    
-     
+  
   }
   
   .bar{
-    width: 410px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -174,11 +171,12 @@ a {
   }
 
   .fttx{
-    width: 410px;
+    width: 100%;
     height: 1300px;
     display: flex;
     flex-direction: column;
     position: relative;
+    justify-content: center;
     align-items: center;
     background-color: #1e1e1e;
     margin-right: none;
@@ -191,22 +189,19 @@ a {
     height: 350px;
     margin-top: 20px;
     
-    
-   
   }
 
   .text{
     height: 100%;
     width: 350px;
-    margin-left: 5px;
+    
     justify-content: center;
     display: flex;
     flex-direction: column;
     position: relative;
     text-align: justify;
     background-color: #1e1e1e;
-    
-    
+     
   }
 
   
