@@ -137,12 +137,12 @@ a {
 @media (max-width: 600px) {
 
   body{
-    width: 612px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    background-color: black;
     margin-left: 0px;
     padding-left: 0px;
     margin-right: 0px;
@@ -152,7 +152,7 @@ a {
   }
   
   .bar{
-    width: 410px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -166,6 +166,7 @@ a {
     margin-left: 17px;
     font-size: 20px;
     color: white;
+    
   }
   
 
@@ -174,14 +175,15 @@ a {
   }
 
   .fttx{
-    width: 410px;
-    height: 1300px;
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     position: relative;
     align-items: center;
     background-color: #1e1e1e;
     margin-right: none;
+  
    
   }
 
@@ -198,7 +200,7 @@ a {
   .text{
     height: 100%;
     width: 350px;
-    margin-left: 5px;
+    border: 5px transparent solid;
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -206,9 +208,14 @@ a {
     text-align: justify;
     background-color: #1e1e1e;
     
-    
   }
 
+  p {
+    
+    color: white;
+    word-spacing: -1px;
+
+  }
   
   
 }
